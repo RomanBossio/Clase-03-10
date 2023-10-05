@@ -1,0 +1,46 @@
+
+ /* @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap'); */
+body{
+    background-color: rgb(15, 10, 88);
+}
+ul{
+    list-style-type: none;
+    background-color: rgb(187, 109, 20);
+    width: 300px;
+    padding: 10px;
+}
+.items-nav{
+    display: inline;
+    padding: 10px;
+}
+h1{
+    background-image: url(Imagenes/cabeza-tigre-sumatera-closeup-pared-azul-oscuro.jpg);
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;   
+    height: 500px;
+    margin: 40px;
+    text-align: center;
+    font-size: 4em;
+    text-shadow: 5px 5px rgb(243, 243, 243);
+    padding: 80px 20px;
+    color: rgb(187, 109, 20);
+}
+.tarjeta{
+    max-width: 300px;
+    margin: 50px auto;
+    border: 2px solid darkorange;
+    box-shadow: 5px 5px 10px rgb(177, 126, 15),
+    -5px -5px 10px rgb(0, 0, 0);
+}
+.img-tar{
+    width: 100%;
+}
+*{box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: 'Raleway' , sans-serif;
+}
+.resaltado{
+    background-color: yellowgreen;
+}
